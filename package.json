@@ -1,0 +1,19 @@
+{
+  "name": "react_parcel_boilerplate",
+  "version": "1.0.0",
+  "description": "JavaScript Flashcards for learning/revision. Built with Reactjs and Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./src/index.html"
+  },
+  "author": "Azez Nassar",
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^5.4.0",
+    "node-sass": "^4.9.3",
+    "parcel-bundler": "^1.9.7",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}

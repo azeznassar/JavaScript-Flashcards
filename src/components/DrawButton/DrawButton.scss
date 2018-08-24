@@ -1,0 +1,28 @@
+.drawButton {
+    $clr: hsla(219, 63%, 51%, 0.541);
+    font-size: 1.3em;
+    border: none;
+    outline: none;
+    display: block;
+    width: 10rem;
+    height: 4rem;
+    color: #f3f3f3;
+    background: $clr;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 0 3px darken($clr, 5);
+
+    &:hover {
+      background: lighten($clr, 5);
+      box-shadow: 0 3px $clr;
+    }
+
+    &:active {
+      border: none;
+      position:relative;
+      top: 3px;
+      box-shadow: 0 0;
+      background: darken($clr, 10);
+    }
+  }
